@@ -116,28 +116,73 @@
   border-radius: 8px;
   margin: 20px;
 }
-.about-container h1 {
-  color: rgb(1, 12, 134);
-}
+
 .about-container p {
-  font-size: 18px;
+  font-size: 17px;
   color: black;
-  text-align: center;
   line-height: 1.6;
 }
 
+/* Itnerary */
 
 
+.itinerary-box h3 {
+  color: #000;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
+.itinerary-box ul {
+  padding-left: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
+.itinerary-box ul li {
+  font-size: 15px;
+  color: rgb(13, 155, 202);
+  margin-bottom: 5px;
+  border-bottom: 1px dotted black;
+  font-weight: 600;
+  line-height: 25px;
+}
 
+.itinerary-box ul li a {
+  color: rgb(11, 175, 230);
+  text-decoration: none;
+}
 
+.itinerary-box ul li a:hover {
+  text-decoration: none;
+  color: red;
+}
+/* Ensure the Itinerary and CreateDestination don't disturb the layout */
+.itinerary-box,
+.create-destination-box {
+  width: 700px !important;
+  height: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow-y: auto;
+  opacity: 0.9;
+  background-color: #f8f8fe;
+  position: absolute;
+  top: 60px; /* Adjust based on where you want the page to appear */
+  left: 0;
+  width: 100%;
+  opacity: 0.9;
+  background-color: #f8f8fe;
+  justify-content: center;
+  margin: auto;
+  z-index: 1000; /* Ensure it appears above other content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-
-
-
-
-
+/* Hide the pages by default */
+.itinerary-box.hidden,
+.create-destination-box.hidden {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .toggle-button {

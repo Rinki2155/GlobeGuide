@@ -3,37 +3,64 @@ import React from 'react';
 const AboutUs = () => {
     return (
         <div className="container-sm">
-                           <h1 className='py-1 text-center'>About Us</h1>
 
             <div className="about-container py-5">
-                <h1 className='text-center'>Welcome TO Globe-Guide World<br/><br/>
-             
-             </h1>
-                <p>
-                    Welcome to <strong>Globe-Guide</strong>,<br/> your ultimate travel companion! We are dedicated to helping
-                    you explore the world with ease, offering comprehensive guides, tips, and resources for every destination you
-                    wish to visit. Our mission is to inspire and empower travelers to discover new places, cultures, and experiences, making your journey as enriching and enjoyable as possible.
-                </p><br/><br/>
-                <p>
-                    <strong>Our Vision</strong><br/>
-                    At Globe-Guide, we believe in the transformation power of travel. We aim to bridge the gap between travelers and their destinations, providing valuable insights and practical advice to ensure that your travel experiences are safe, memorable, and truly unique.
-                </p><br/><br/>
-                <p>
-                    <strong>What We Offer</strong><br />
-                    - In-Depth Guides: Detailed information on various destinations, including popular attractions, local customs, and must-try experiences.<br />
-                    - Travel Tips: Practical advice on everything from packing and safety to budgeting and itineraries.<br />
-                    - Community: A vibrant community of fellow travelers sharing their experiences, tips, and recommendations.
-                </p>
-                <p>
-                    <strong>Why Choose Globe-Guide?</strong><br />
-                    - Expertise: Our team of seasoned travelers and local experts ensures you get accurate and up-to-date information.<br />
-                    - Passion: We are passionate about travel and committed to helping you create unforgettable memories.<br />
-                    - Comprehensive Resources: Whether you’re planning a weekend getaway or a world tour, we’ve got you covered with all the resources you need.
-                </p>
-                <p>
-                    <strong>Join Us</strong><br />
-                    Embark on your next adventure with Globe-Guide. Let's explore the world together!
-                </p>
+                <h2 className='py-1'>About Us</h2>
+
+
+                Globle-Guide is a DIY Travel Information Company based out of Bellevue, WA (US).<br />
+
+                We provide helpful travel videos and precise travel information on a wide range of topics for destinations across Asia, the US, and Canada.<br /><br/><br/>
+
+
+                <h3>Our Company</h3>
+
+                Globle-Guide was born out of a desire to find helpful travel information organized together in one place.<br />
+
+                At Globle-Guide, our goal is to "Make Travel Easy" for everyone.<br /><br/>
+
+                We aim to provide fellow travelers with helpful travel information that is accurate, specific, and useful.<br />
+
+                On our site, you will find informative travel videos, as well as up-to-date destination information and local tips for visiting destinations in Asia, the US, and Canada.<br />
+
+                From the logistical details of arrival, local transport to hotel recommendations, top attractions, local travel tips, and more, Globle-Guide brings everything together in one place.<br /><br />
+
+                Travelers use our services before, during, and after their trips. Globle-Guide helps them get the most out of their visit to the destination.<br />
+
+
+                At Globle-Guide, we have made it our mission to provide relevant, up-to-date information to help fellow travelers plan and optimize their DIY travel trips.<br />
+
+                Globle-Guide helps travelers through a wide range of useful travel videos and detailed city information with travel tips to get the most out of their trips.<br />
+
+                Travel Information for destinations in Asia, the US, and Canada is available through this website and at our YouTube "Globle-Guide Travel-Channel".<br />
+
+                We ensure our travel guides are highly accurate by visiting and spending time at destinations, learning and working together with local guides, and keeping up-to-date with all the latest information.<br /><br />
+
+                Our travel information and video guides are always based on real-life travel experiences by Globle-Guide Team member(s).<br />
+
+                Globle-Guide is proud to offer our expertise to you on all of our destinations.<br />
+
+                Our travel information and videos are easy to use and offer helpful, consistent format-based content that helps plan and execute DIY travel trips easily.<br />
+
+                From travel Planning, Airport and Public Transportation information, Hotels, Top Attractions, City specific travel Tips, and more, Globle-Guide has all in one place.<br /><br /><br />
+
+
+
+                <h3>How does it Work?
+                </h3>
+
+
+
+
+
+                Get Social with Globle-Guide <br />
+
+                Be sure to subscribe to the Globle-Guide Travel channel @YouTube and/ or follow us on Twitter, Facebook, and Instagram.<br />
+
+                Become a part of the Globle-Guide online travel community!<br />
+
+
+
             </div>
         </div>
     );

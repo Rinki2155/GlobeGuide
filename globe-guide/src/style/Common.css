@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: center;
   padding: 0;
+  margin-left: 200px;
 }
 
 .footer-link {
@@ -26,9 +27,8 @@
 .footer-body {
   text-decoration: none;
   line-height: 30px;
-  text-align: center; /* Centered text for better appearance on small screens */
+  /* text-align: center;  */
 }
-
 .footer-body a {
   text-decoration: none;
   color: white;
